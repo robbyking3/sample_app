@@ -4,3 +4,63 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+
+@import "compass";
+
+@import "compass/layout";
+
+
+h1 { font-size:32px; }
+
+.buttonCls {
+	padding: 15px 20px;
+	color: #fff;
+	background: #666;
+	@include border-radius(8px);
+	font-size: 22px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #000;
+	margin: 10px auto;
+	text-align: center;
+	display: inline-block;
+	&:hover{
+	background:darken(#666, 8%);
+	}
+}
+
+body{
+	background: #ccc;
+	font-family: Helvetica, Arial, sans-serif;
+}
+p {
+	margin: 20px 0 10px 0;
+}
+
+.wrapper {
+	padding: 40px;
+	width: 720px;
+	background: #fff;
+    @include border-radius(12px);
+    margin: 40px auto;
+}
+.navigation {
+list-style: none;
+height: 40px;
+display: block;
+float: right;
+width: 	300px;
+text-align: right;
+	li {
+	display: inline-block;
+	}
+	a{
+		background: #ccc;
+		color: #333;
+		padding: 10px;
+		text-decoration: none;
+		text-shadow: 1px 1px 0 #fff;
+	&:hover {
+	background:darken(#ccc,10%);
+	}
+	}
+}

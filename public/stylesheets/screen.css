@@ -66,3 +66,82 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 13, ../../app/stylesheets/screen.scss */
+h1 {
+  font-size: 32px;
+}
+
+/* line 15, ../../app/stylesheets/screen.scss */
+.buttonCls {
+  padding: 15px 20px;
+  color: #fff;
+  background: #666;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+  font-size: 22px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #000;
+  margin: 10px auto;
+  text-align: center;
+  display: inline-block;
+}
+/* line 26, ../../app/stylesheets/screen.scss */
+.buttonCls:hover {
+  background: #525252;
+}
+
+/* line 31, ../../app/stylesheets/screen.scss */
+body {
+  background: #ccc;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 35, ../../app/stylesheets/screen.scss */
+p {
+  margin: 20px 0 10px 0;
+}
+
+/* line 39, ../../app/stylesheets/screen.scss */
+.wrapper {
+  padding: 40px;
+  width: 720px;
+  background: #fff;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -o-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -khtml-border-radius: 12px;
+  border-radius: 12px;
+  margin: 40px auto;
+}
+
+/* line 46, ../../app/stylesheets/screen.scss */
+.navigation {
+  list-style: none;
+  height: 40px;
+  display: block;
+  float: right;
+  width: 300px;
+  text-align: right;
+}
+/* line 53, ../../app/stylesheets/screen.scss */
+.navigation li {
+  display: inline-block;
+}
+/* line 56, ../../app/stylesheets/screen.scss */
+.navigation a {
+  background: #ccc;
+  color: #333;
+  padding: 10px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #fff;
+}
+/* line 62, ../../app/stylesheets/screen.scss */
+.navigation a:hover {
+  background: #b3b3b3;
+}
